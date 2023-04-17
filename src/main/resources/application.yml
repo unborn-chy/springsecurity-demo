@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 123456
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          gitee:
+#            client-id: 219f6297baaa72b90a46fed1412c1017bf9b7f1fb58952eb73907c2dd054fc48
+#            client-secret: 3d1d301c55cb96aa78a3850f04892e039aff5679719506f1f329b61d5057ec5c
+#            redirect-uri: http://localhost:8080/login/oauth2/code/gitee
+#            client-name: gitee
+#            provider: gitee
+#            scope:
+#              - user_info
+#        provider:
+#          gitee:
+#            authorization-uri: https://gitee.com/oauth/authorize
+#            token-uri: https://gitee.com/oauth/token
+#            user-info-uri: https://gitee.com/api/v5/user
+#            user-name-attribute: name
+#
